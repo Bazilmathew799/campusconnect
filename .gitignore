@@ -1,0 +1,39 @@
+# Firebase emulator data
+campus_connect_admin/emulator-data/
+
+# Local AI/development tool files
+campus_connect_admin/.agents/
+campus_connect_admin/.claude/
+# Local AI/development tool files
+backend/.agents/
+backend/.claude/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Flutter generated desktop files
+**/linux/flutter/generated_plugin_registrant.cc
+**/linux/flutter/generated_plugins.cmake
+**/macos/Flutter/GeneratedPluginRegistrant.swift
+**/windows/flutter/generated_plugin_registrant.cc
+**/windows/flutter/generated_plugin_registrant.h
+**/windows/flutter/generated_plugins.cmake
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Firebase service account credentials
+service-account.json
+*service-account*.json
+*-service-account*.json
+
+# Local emulator data and logs
+emulator-data/
+*-debug.log
+
+# Dependencies
+node_modules/
